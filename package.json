@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "Creating a calculator application for hexadecimal arithmetic",
   "main": "index.js",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Mattvc-03/CalculatorApp/issues"
   },
-  "homepage": "https://github.com/Mattvc-03/CalculatorApp#readme"
+  "homepage": "https://github.com/Mattvc-03/CalculatorApp#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
