@@ -6,7 +6,7 @@ function addHex(a, b) {
 
 function subtractHex(a, b) {
   const result = parseInt(a, 16) - parseInt(b, 16);
-  if (result < 0) throw new Error("Invalid operation");
+  if (result < 0) throw new Error("Invalid operation: result negative");
   return result.toString(16).toUpperCase().padStart(4, "0");
 }
 
